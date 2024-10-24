@@ -1,13 +1,16 @@
 {
   "name": "my-project",
   "private": true,
+  "homepage": "https://ptlong-qn2k.github.io/Exercise_React/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -16,6 +19,7 @@
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
     "axios": "^1.7.2",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.0",

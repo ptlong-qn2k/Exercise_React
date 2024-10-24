@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: barato;
-  src: url(../public/honchokomono-italic-bold.otf);
+  src: url(/honchokomono-italic-bold.otf);
 }
 
 body {

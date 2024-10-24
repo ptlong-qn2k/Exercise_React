@@ -50,7 +50,7 @@ const Login = () => {
 
     return (
         <div className="w-full h-[690px] flex flex-row items-center  " >
-            <img src="../public/login/Illustrations.png" alt="" className="w-[67%] h-[100%]" />
+            <img src="/project1-react/login/Illustrations.png" alt="" className="w-[67%] h-[100%]" />
             <div className="w-[33%] h-full flex flex-col px-[5%] justify-center">
                 <div className="w-[100%] h-[74px] flex flex-col justify-between mb-[23px]">
                     <p className="text-lg font-bold text-center">Welcome to Entrance Test Interview!</p>
@@ -101,10 +101,10 @@ const Login = () => {
                         <hr className="w-full border border-[#E9EAEC]         " />
                     </div>
                     <div className="w-[153px] h-[30px] flex flex-row justify-between mx-auto">
-                        <img src="../public/login/Facebook.png" alt="" />
-                        <img src="../public/login/Twitter.png" alt="" />
-                        <img src="../public/login/Mail.png" alt="" />
-                        <img src="../public/login/GIt.png" alt="" />
+                        <img src="/project1-react/login/Facebook.png" alt="" />
+                        <img src="/project1-react/login/Twitter.png" alt="" />
+                        <img src="/project1-react/login/Mail.png" alt="" />
+                        <img src="/project1-react/login/GIt.png" alt="" />
                     </div>
 
                 </form>

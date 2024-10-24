@@ -1,4 +1,3 @@
-import { useState } from "react";
 import '../Styles/App.css'
 import { Button } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -69,7 +68,7 @@ const Header = ({ statusSidebar, sidebar }) => {
                         aria-expanded={open ? 'true' : undefined}
                         onClick={handleClick}
                     >
-                        <img src="/public/session1/Group 659.png" alt="" className="w-[29px] h-[29px]" />
+                        <img src="/project1-react/session1/Group659.png" alt="" className="w-[29px] h-[29px]" />
                     </Button>
                 </div>
             </div >
